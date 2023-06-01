@@ -12,6 +12,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "types": ["node", "@types/react", "@types/react-dom"],
+    "target": "es5",
     "jsx": "preserve",
     "incremental": true,
     "paths": {
